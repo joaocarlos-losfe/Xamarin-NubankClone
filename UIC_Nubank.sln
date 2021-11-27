@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIC_Nubank.Android", "UIC_Nubank.Android\UIC_Nubank.Android.csproj", "{5F76CE3E-1FB8-40D4-BAE7-B60518CCB671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIC_Nubank", "UIC_Nubank\UIC_Nubank.csproj", "{61E459E2-B086-4BD5-98E2-8D87B7323330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F76CE3E-1FB8-40D4-BAE7-B60518CCB671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F76CE3E-1FB8-40D4-BAE7-B60518CCB671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F76CE3E-1FB8-40D4-BAE7-B60518CCB671}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F76CE3E-1FB8-40D4-BAE7-B60518CCB671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F76CE3E-1FB8-40D4-BAE7-B60518CCB671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F76CE3E-1FB8-40D4-BAE7-B60518CCB671}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{61E459E2-B086-4BD5-98E2-8D87B7323330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E459E2-B086-4BD5-98E2-8D87B7323330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E459E2-B086-4BD5-98E2-8D87B7323330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E459E2-B086-4BD5-98E2-8D87B7323330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03D119CB-9808-4F5B-B92F-057B59287898}
+	EndGlobalSection
+EndGlobal

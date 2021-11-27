@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UIC_Nubank.MainPage"
+             BackgroundColor="White"
+             Title="UICNubank">
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0" BackgroundColor="#820ad1" Padding="20" Spacing="20">
+
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton HeightRequest="50" WidthRequest="50" BackgroundColor="#9b3bda" CornerRadius="50" Source="user.png" Padding="10" HorizontalOptions="StartAndExpand"/>
+                    <ImageButton HeightRequest="50" WidthRequest="50" BackgroundColor="#820ad1" CornerRadius="50" Source="eye.png" Padding="10" />
+                    <ImageButton HeightRequest="50" WidthRequest="50" BackgroundColor="#820ad1" CornerRadius="50" Source="information.png" Padding="10" />
+                    <ImageButton HeightRequest="50" WidthRequest="50" BackgroundColor="#820ad1" CornerRadius="50" Source="email.png" Padding="10" />
+                </StackLayout>
+
+                <Label Text="Olá, João Carlos" FontAttributes="Bold" FontSize="20"  TextColor="White" HorizontalOptions="StartAndExpand"/>
+
+                <Frame HeightRequest="120" CornerRadius="15">
+                    <Label Text="Vem aceitar seu pedacinho" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start" HorizontalTextAlignment="Start" WidthRequest="200" FontSize="24"/>
+                   
+                </Frame>
+
+                <Button FontSize="14" HorizontalOptions="Start" Text="Eu quero" BackgroundColor="White" TextColor="Black" FontAttributes="Bold" CornerRadius="15"/>
+
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="1"  Padding="20" Spacing="20">
+                <Label Text="Conta" TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+                <Label Text="R$ 0,00" TextColor="Black" FontSize="24" FontAttributes="Bold"/>
+
+                <ScrollView Orientation="Horizontal">
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Padding="5">
+                        
+                        <StackLayout>
+                            <ImageButton HorizontalOptions="CenterAndExpand" Source="transfer.png" CornerRadius="50" BackgroundColor="#f0f1f5" Padding="25" HeightRequest="72" WidthRequest="72" />
+                            <Label FontSize="12" Text="pix" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <ImageButton HorizontalOptions="CenterAndExpand" Source="barcode.png" CornerRadius="50" BackgroundColor="#f0f1f5" Padding="25" HeightRequest="72" WidthRequest="72" />
+                            <Label FontSize="12" Text="pagar" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <ImageButton HorizontalOptions="CenterAndExpand" Source="upload.png" CornerRadius="50" BackgroundColor="#f0f1f5" Padding="25" HeightRequest="72" WidthRequest="72" />
+                            <Label FontSize="12" Text="Transferir" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <ImageButton HorizontalOptions="CenterAndExpand" Source="downarrow.png" CornerRadius="50" BackgroundColor="#f0f1f5" Padding="25" HeightRequest="72" WidthRequest="72" />
+                            <Label FontSize="12" Text="Depositar" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <ImageButton HorizontalOptions="CenterAndExpand" Source="barcode.png" CornerRadius="50" BackgroundColor="#f0f1f5" Padding="25" HeightRequest="72" WidthRequest="72" />
+                            <Label FontSize="12" Text="Emprestimo" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <ImageButton HorizontalOptions="CenterAndExpand" Source="handphone.png" CornerRadius="50" BackgroundColor="#f0f1f5" Padding="25" HeightRequest="72" WidthRequest="72" />
+                            <Label FontSize="12" Text="Recarga" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <ImageButton HorizontalOptions="CenterAndExpand" Source="cashpayment.png" CornerRadius="50" BackgroundColor="#f0f1f5" Padding="25" HeightRequest="72" WidthRequest="72" />
+                            <Label FontSize="12" Text="Cobrar" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <ImageButton HorizontalOptions="CenterAndExpand" Source="like.png" CornerRadius="50" BackgroundColor="#f0f1f5" Padding="25" HeightRequest="72" WidthRequest="72" />
+                            <Label FontSize="12" Text="Doação" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+                        </StackLayout>
+
+                    </StackLayout>
+                    
+                </ScrollView>
+
+                <Button Margin="0, 15, 0,0" BackgroundColor="#f0f1f5" Text="meus cartões" TextColor="Black" CornerRadius="10" ImageSource="card" ContentLayout="Left,0" Padding="20, 10, 160, 10"/>
+
+                <ScrollView Orientation="Horizontal">
+
+                    <StackLayout Orientation="Horizontal" Padding="5" Spacing="20">
+                        <Frame BackgroundColor="#f0f1f5" CornerRadius="10" WidthRequest="250" HeightRequest="50" Padding="20">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span FontSize="12" Text="IPO do Nubank: " TextColor="#820ad1" FontAttributes="Bold"/>
+                                        <Span FontSize="12" Text="Investimentos a partir de R$30 até 07/12" TextColor="Black" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Frame>
+
+                        <Frame BackgroundColor="#f0f1f5" CornerRadius="10" WidthRequest="250" HeightRequest="50" Padding="20">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span FontSize="12" Text="25% de desconto " TextColor="#820ad1" FontAttributes="Bold"/>
+                                        <Span FontSize="12" Text="em emprestimo comportabilidade ..." TextColor="Black" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Frame>
+
+                        <Frame BackgroundColor="#f0f1f5" CornerRadius="10" WidthRequest="250" HeightRequest="50" Padding="20">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span FontSize="12" Text="Salve seus amigos da burocracia.          " TextColor="Black" FontAttributes="Bold"/>
+                                        <Span FontSize="12" Text="Faça um convite" TextColor="#820ad1" FontAttributes="Bold" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Frame>
+
+                    </StackLayout>
+                    
+                </ScrollView>
+
+            </StackLayout>
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
